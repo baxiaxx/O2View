@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "O2View"
-  s.version      = "0.0.1"
+  s.version      = "2.0.0"
   s.summary      = "A short afefw of O2View.here abc"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/baxiaxx/O2View.git" }
+  s.source       = { :git => "https://github.com/baxiaxx/O2View.git" :tag => version}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
